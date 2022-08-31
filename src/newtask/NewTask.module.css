@@ -1,0 +1,28 @@
+.basic {
+  display: flex;
+  flex-direction: row;
+  text-transform: uppercase;
+  justify-content: space-between;
+  width: 750px;
+  margin: 20px;
+}
+
+.list-text {
+  overflow-wrap: break-word;
+  inline-size: 350px;
+}
+
+.completeButton {
+  height: 35px;
+  background-color: green;
+  color: white;
+}
+
+.removeButton {
+  height: 35px;
+  background-color: red;
+  color: white;
+}
+.basic.green {
+  background-color: lightgreen;
+}

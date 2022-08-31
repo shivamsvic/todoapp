@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.App ul {
+  list-style-type: none;
+}
+
+.taskTracker{
+  font-size: 50px;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.todoInputContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.todoInput {
+  margin-right: 20px;
+  height: 15px;
+  width: 300px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.todoInput:focus {
+  outline: none;
+  border: none;
+  box-shadow: inset 1px 1px 5px blue;
+}
+
+.todoAddButton{
+  height: 35px;
+}
+
+.todoDisplayContainer{
+  margin-top: 30px;
+}

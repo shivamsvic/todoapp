@@ -1,0 +1,1 @@
+This is a simple todo app which tests knowledge of states and basic concepts of React, JSX, Components,JS Arrays and few of its important methods.
